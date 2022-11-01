@@ -20,6 +20,7 @@ body {
   margin: 0;
   overflow: hidden;
 }
+
 /* Add a dark overlay */
 body::after {
   content: '';
@@ -49,6 +50,7 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .countdown {
   /* display: flex; */
   display: none;
