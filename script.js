@@ -10,9 +10,9 @@ const currentYear = new Date().getFullYear();
 
 const newYearTime = new Date(`January 01 ${currentYear + 1} 00:00:00`);
 
-const updateCoutdown = () => {
+const updateCountdown = () => {
   const currentTime = newDate();
   const diff = newYearTime - currentTime;
 };
 
-updateCoutdown();
+updateCountdown();
